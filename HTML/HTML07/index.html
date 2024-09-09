@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+        <h2> FORMULARIO DE SATISFAÇÃO DO GRUPO DK </h2>    
+    </header>
+    <article>
+        <form action="">
+            <label for="cNome" > NOME DA EMPRESA: </label>
+            <input autocomplete="off" type="text" size="50" name="tNome" id="cNome" required="required"  />
+            <br><br>
+        </form>
+        <br /><br /> 
+        <form action="">
+            <label for="cDate" >DATA DE ENTRADA NA EMPRESA: </label>
+            <br>
+            <input autocomplete="off" type="date" size="50" name="tDate" id="cDate" required="required"  />
+            <br><br>
+        </form>
+        <br /><br />
+        <form action="">
+            <label for="cNumber" >NUMERO DE FUNCIONARIOS: </label>
+            <br>
+            <input autocomplete="off" type="number" size="50" name="tNumber" id="cNumber" required="required"  />
+            <br><br>
+        </form>
+        <br /><br />
+        <form action="">
+            <label for="cNumber" >SALARIO: </label>
+            <br>
+            <input autocomplete="off" type="number" size="50" name="tNumber" id="cNumber" required="required"  />
+            <br><br>
+        </form>
+        <br>
+        <p>TRABALHA NA EMPRESA:</p>
+            <input type="radio" name="tipo" id="sim" value="S" />
+                <label for="sim">SIM</label><br />
+            <input type="radio" name="tipo" id="nao" value="N" />
+                <label for="nao">NAO</label><br />
+        <br>
+        <br>
+        <p>MODELO DE CONTRAÇAO:</p>
+            <input type="radio" name="tipo" id="clt" value="CLT" />
+                <label for="clt"> CLT </label><br />
+            <input type="radio" name="tipo" id="PJ" value="PJ" />
+                <label for="PJ"> PJ </label><br />
+        <br>
+        <p>QUAIS BENEFICIOS A EMPRESA FORNECIA:?</p>
+             <input type="checkbox" id="transporte1" name="beneficio1" value="VR" /> 
+             <label for="beneficio1"> VALE REFEIÇÃO </label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio2" value="VA" /> 
+             <label for="beneficio2"> VALE ALIMENTAÇÃO </label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio3" value="VT" /> 
+             <label for="beneficio3"> VELA TRANSPORTE </label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio4" value="GYMPASS" /> 
+             <label for="beneficio4"> GYMPASS </label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio5" value="PLR" /> 
+             <label for="beneficio5"> PLR </label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio6" value="SAUDE" /> 
+             <label for="beneficio6"> PLANO DE SAUDE </label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio7" value="ODONTO" /> 
+             <label for="beneficio7"> PLANO ODONTOLOGICO </label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio8" value="CESTA" /> 
+             <label for="beneficio8">CESTA BASICA</label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio9" value="ANIVERSARIO" /> 
+             <label for="beneficio9">DAY OFF</label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio10" value="ESTUDOS" /> 
+             <label for="beneficio10">BOLSA DE ESTUDOS</label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio11" value="MATERNIDADE" /> 
+             <label for="beneficio11">LICENÇA MATERNIDADE</label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio12" value="PET" /> 
+             <label for="beneficio12">PET FRIENDLY</label><br />
+
+             <input type="checkbox" id="transporte1" name="beneficio13" value="EMPRESTIMO" /> 
+             <label for="beneficio13">EMPRESTIMO CONSIGNADO</label><br />
+
+        <p>PROS DA EMPRESA:</p>
+        <textarea name="message" rows="10" cols="50" placeholder="Deixe aqui a sua mensagem!" required> </textarea>
+        <br><br>
+        <p>CONTRAS DA EMPRESA:</p>
+        <textarea name="message" rows="10" cols="50" placeholder="Deixe aqui a sua mensagem!" required> </textarea>
+        <br><br>
+        <input type="submit" value="Enviar" />
+    </article>
+
+
+</body>
+</html>
