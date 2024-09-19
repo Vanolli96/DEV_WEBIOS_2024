@@ -1,0 +1,43 @@
+/* body{
+    background-image: url(https://www.fazendadorosa.com.br/images/pordosol1.jpg);
+    background-attachment: fixed; */
+#p1{
+border-width: 2px;
+border-color: blueviolet ;
+border-style: solid;
+/* border: dashed blueviolet 50px; */
+
+}
+#p2{ 
+    text-shadow: 1px 2px 3px orchid ;
+
+
+
+
+
+
+}
+
+
+img{ width: 250px ;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+
+figure{
+
+    border:  12px solid;
+    color: burlywood ;
+    border-radius: 10px;
+    
+   
+}
+
+figcaption{
+    text-align: center;
+}
+
+}
+

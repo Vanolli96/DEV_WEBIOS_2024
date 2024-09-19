@@ -1,0 +1,39 @@
+*{
+    background-color: aquamarine ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#P6, a, h1{
+    color:burlywood;
+    background-color:brown;
+
+
+}
+
+#p1{
+color:blueviolet ;
+}
+
+.divs{
+    color:burlywood;
+    background-color:brown;
+}
+
+.secs1{
+    background-color: red;
+    color: white;
+    font-size: 35px;
+
+}
+.secs2{
+    background-color: blueviolet;
+    color: grey;
+    font-size: 54px;
+}
+
+.p3{
+
+    background-color: white;
+    color: green;
+}
