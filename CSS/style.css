@@ -1,0 +1,25 @@
+*{
+    background-color: #eefaa8;
+    font-family: 'Rajdhani'sans-serif;
+    margin: auto;
+    max-width: 80%;
+
+}
+
+header{
+    background-color: #649ea7;
+    text-align: center;
+   border:  1px #000000 solid;
+}
+figure{
+    border-radius: 10px;
+    text-align: center;
+}
+table{
+    border: 1px #000000 solid;
+    background-color: #000000;
+    border-style: solid;
+    font-weight: bold;
+    color: #8fbfb9;
+    font: bold;
+}
