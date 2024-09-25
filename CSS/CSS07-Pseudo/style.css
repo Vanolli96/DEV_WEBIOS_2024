@@ -1,0 +1,45 @@
+button{
+    background-color: brown;
+    color: black;
+    width: 12em;
+    border-radius: 5px;
+    /* border-color: aliceblue; */
+    border: solid 2px greenyellow;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: aquamarine;
+    border-radius: 15px;
+    border: solid 6px goldenrod;
+
+}
+
+p:hover{
+    background-color: blue;
+    color: aquamarine;
+    border-radius: 15px;
+    border: solid 6px goldenrod;
+}
+
+a:hover{background-color: blue;
+    color: aquamarine;
+    border-radius: 15px;
+    border: solid 6px goldenrod;
+
+}
+
+input:focus{
+    background-color: blue;
+    cursor: pointer;
+}
+li:first-child{
+    border: solid 3px chocolate;
+}
+li:last-child{
+    border: solid 3px chocolate;
+}
+
+li:nth-child(3){
+    border: solid 3px chocolate;
+}
