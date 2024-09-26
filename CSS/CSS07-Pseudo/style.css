@@ -15,12 +15,12 @@ button:hover {
 
 }
 
-p:hover{
+ /* p:hover{
     background-color: blue;
     color: aquamarine;
     border-radius: 15px;
     border: solid 6px goldenrod;
-}
+} */
 
 a:hover{background-color: blue;
     color: aquamarine;
@@ -42,4 +42,41 @@ li:last-child{
 
 li:nth-child(3){
     border: solid 3px chocolate;
+}
+
+#P2::after{
+
+    content: " - Here nos adderemos o after " ;
+    border: dotted 2px chocolate;
+}
+
+#P2::before{
+
+    content: " Here nos adderemos o before ";
+    border: solid 5px crimson;
+
+}
+
+.P3::first-letter{
+    font-size: xx-large;
+    color: goldenrod ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+.P3::first-line{
+    background-color: 3px dashed rgb(11, 122, 207);
+    color: rgb(209, 17, 193);
+}
+
+/* .P3::selection{
+    background-color: brown;
+    color: goldenrod;
+
+} */
+
+::selection{
+    background-color: brown;
+    color: goldenrod;
+
 }
