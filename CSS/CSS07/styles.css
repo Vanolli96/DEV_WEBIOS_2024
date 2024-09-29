@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8c867c;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+h1{
+   color: #314a20;
+
+}
+
+.container {
+    padding: 2em;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Evitando que a imagem de fundo sobreponha o conteúdo */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.bloco01 {
+    display: flex;
+    gap: 2em;
+}
+
+.img_bloco01 {
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.img_bloco01:hover {
+    transform: scale(1.1);
+}
+
+.texto {
+    max-width: 500px;
+}
+
+.resumo {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.linksite {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.linksite {
+    background-color: #0056b3;
+}
+
+/* Segundo Bloco */
+.bloco02 {
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+/* Terceiro Bloco - Notícias */
+.bloco03 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.noticias {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+}
+
+.noticias img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.texto-noticia::first-letter {
+    font-size: 200%;
+    color: brown;
+}
+.linksite {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+
+.linksite:hover {
+    background-color: #0056b3; 
+    
+}
+
+/* Estilos para o footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #314a20;
+    color: white;
+}
+
+footer p::before {
+    content: "©";
+    margin-right: 5px;
+  }
+  
+  footer p::before {
+    content: "Todos os direitos reservados";
+  }
+  
+  footer p::after {
+    content: " © Carlos Alberto";
+  }
+
+/* Alteração para texto selecionado */
+::selection {
+    background-color: green;
+    color: white;
+}

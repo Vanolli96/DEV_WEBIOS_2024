@@ -1,0 +1,76 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    margin: auto;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(195, 247, 229);
+}
+
+h1{
+    color: blue;
+}
+
+figure{
+    margin: 10px;
+}
+
+#topo {
+    width: 20%;
+}
+
+figcaption{
+    text-align: center;
+}
+main {
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+div {
+    border: 1px solid black;
+    height:300px;
+}
+
+
+figure {
+    border: 1px solid black;
+    width: 30%;
+    height: 20vh;
+    background-position: center;
+    
+}
+
+img {
+    width: 100%;
+    height: 90%;
+}
+
+#cima {
+    float: none;
+}
+
+#esquerda {
+    float: left;
+}
+
+#direita {
+    float: right;
+}
+
+
+.img1{
+    float: left; 
+    width: 30%;
+}
+
+#img2{
+float: right;
+}
+
+footer, h2,p{
+    margin-left: 10px;
+}
