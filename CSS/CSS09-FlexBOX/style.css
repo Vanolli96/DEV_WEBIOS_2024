@@ -1,0 +1,25 @@
+#container{
+    height: 70vh;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    justify-content: space-between;   
+    align-items: baseline;
+}
+
+.item{
+    border: 1px solid chocolate;
+    width:60px;
+    /* height: 60px; */
+
+}
+
+
+.item-1{
+    height: 120px;
+}
+
+.item-2{
+    flex-grow: 2;
+}
