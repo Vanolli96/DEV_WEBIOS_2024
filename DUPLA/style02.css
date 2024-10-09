@@ -1,0 +1,31 @@
+.container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#text1{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(184, 24, 24);
+    /* margin-left: 20px; */
+    flex-direction:row;
+    border-radius: 1em;
+    min-height: 2em;
+    align-items: center;
+    font-size: 20px;
+    }
+    
+   
+p:hover {
+    background-color: #85c4e9;
+    color: white;
+}
