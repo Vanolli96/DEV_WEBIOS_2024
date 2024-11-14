@@ -79,4 +79,4 @@ let tarefa = [
 
 let retornaTrue = tarefa.find((item) => {
     return item.isFeira == true
-} )
+}

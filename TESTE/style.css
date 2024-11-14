@@ -1,56 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    height: 100vh;
-  }
-  
-  .todo-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .input-container {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  #task-input {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  #add-btn {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-left: 10px;
-  }
-  
-  #add-btn:hover {
-    background-color: #45a049;
-  }
-  
-  /* Contêiner da lista de tarefas com scroll */
+:
   .todo-list-container {
     max-height: 300px;  /* Define a altura máxima para o scroll */
     overflow-y: auto;   /* Ativa o scroll vertical */
@@ -99,4 +47,6 @@ body {
     text-decoration: line-through;
     color: #888;
   }
+  
+
   
