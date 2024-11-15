@@ -36,15 +36,27 @@
   .todo-column {
     width: 35%; /* Última coluna é um pouco mais larga */
   }
+
+
+  .column-todo-column{
+    width: 100%;
+
+  }
   
   /* Estilo do contêiner da To-Do List */
   .todo-container {
     background-color: #f9f9f9;
-    padding: 15px;
+    padding-top: 20px ;
+    padding-left: 15px ;
+    padding-right: 15px ;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    width : 100%;
+    display: block;
+        
   }
-  
+    
   /* Estilo da lista de tarefas */
   .todo-list {
     max-height: 200px;
@@ -133,7 +145,9 @@
     background-color:#e4a213;
     border:solid 1px;
     border-radius:15px;
-    width:300px;
+    width:100vh;
+    height: 50px;
+    
   }
   
   #txtBusca{
@@ -165,15 +179,49 @@
     flex-direction: row;  }
 
     .main{
-        width: 25%;
+        width: 22%;
         height: 70%;
     }
 
     .Amarelo{
+      background: #d9d502;
+    border: 3px solid #d1d80c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+   
 
     }
 
     .column2{
         width: 50%;
+        height: 100vh;
+        
         
     }
+
+    .Verde{
+      background: #04dd24;
+    border: 3px solid #08ca28;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+   }
+
+    .Vermelho{
+      background: #ec0707;
+    border: 3px solid #d80c0c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+   
+  }
